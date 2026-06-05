@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Horizon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Event Horizon</h1>
+    </header>
+
+    <main>
+
+        <div class="search-container">
+            <input type="text" id="searchInput"
+                placeholder="Search by event name or date">
+        </div>
+
+        <section class="form-section">
+            <h2>Add New Event</h2>
+
+            <div id="warning"></div>
+
+            <form id="eventForm">
+                <input type="text" id="eventName"
+                    placeholder="Event Name">
+
+                <input type="date" id="eventDate">
+
+                <textarea id="eventDescription"
+                    placeholder="Event Description"></textarea>
+
+                <button type="submit">Add Event</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Upcoming Events</h2>
+
+            <div id="eventList" class="event-container"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Your Name © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
