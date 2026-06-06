@@ -43,8 +43,7 @@ function displayEvents(filteredEvents = events) {
             <h3>${event.name}</h3>
             <p><strong>Date:</strong> ${event.date}</p>
             <p>${event.description}</p>
-            <button class="delete-btn"
-                onclick="deleteEvent(${index})">
+            <button class="delete-btn" onclick="deleteEvent(${index})">
                 Delete
             </button>
         `;
